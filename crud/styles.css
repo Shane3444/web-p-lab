@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+input{
+  width: 125px;
+}
+
+p{
+  width: 125px;
+  height: 16px;
+}
+
+button{
+  width: 64px;
+  height: 48px;
+}
+
+.title{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #FED049;
+  margin-bottom: 2%;
+}
+
+.operators{
+  border-bottom: 0.5px solid;
+  padding: 0.5% 0 1.5% 0;
+}
+
+.list{
+  padding: 1% 0;
+  flex-direction: column;
+}
+
+.item{
+  padding: 1% 0;
+}
+
+.add{
+  margin-right: 3px;
+}
